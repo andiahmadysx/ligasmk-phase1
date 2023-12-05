@@ -9,7 +9,7 @@ html, body, * {
     --text-primary: #532EE8;
     --text-black: #000000;
     --text-secondary: #6b6b6b;
-    --text-muted: #313131;
+    --text-muted: #424242;
     --text-white: #FFFFFF;
     --bg-primary: #3A10E5;
     --bg-secondary: #F0F3FF;
@@ -130,7 +130,7 @@ nav ul li.active a, nav ul li a:hover {
 }
 
 .banner .wrapper p {
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 .banner button {
@@ -461,7 +461,7 @@ nav ul li.active a, nav ul li a:hover {
 .business .wrapper p {
     font-size: 12px;
     font-weight: 500;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 .business button {
@@ -541,7 +541,7 @@ nav ul li.active a, nav ul li a:hover {
 }
 
 .event .event-wrapper .card .info p {
-    color: var(--text-muted);
+    color: var(--text-secondary);
     font-size: 12px;
     font-weight: 500;
     display: flex;

@@ -11,13 +11,29 @@ navItems.forEach((item) => {
         this.className += " active";
     });
     item.addEventListener('mouseover', () => {
-        item.querySelector('.sub-menu').style.display = 'flex';
-        item.querySelector('svg').style.rotate = '-90deg';
+        const subMenu = item.querySelector('.sub-menu')
+        const svg = item.querySelector('svg')
+
+        if (subMenu) {
+            subMenu.style.display = 'flex';
+        }
+
+        if (svg) {
+            svg.style.rotate = '-90deg';
+        }
     });
 
     item.addEventListener('mouseout', () => {
-        item.querySelector('.sub-menu').style.display = 'none';
-        item.querySelector('svg').style.rotate = '0deg';
+        const subMenu = item.querySelector('.sub-menu')
+        const svg = item.querySelector('svg')
+        if (subMenu) {
+            subMenu.style.display = 'none';
+        }
+
+        if (svg) {
+            svg.style.rotate = '0deg';
+        }
+
     });
 })
 
