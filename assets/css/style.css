@@ -8,7 +8,7 @@ html, body, * {
 :root {
     --text-primary: #532EE8;
     --text-black: #000000;
-    --text-secondary: #9F9F9F;
+    --text-secondary: #6b6b6b;
     --text-muted: #313131;
     --text-white: #FFFFFF;
     --bg-primary: #3A10E5;
@@ -602,7 +602,7 @@ footer .wrapper .content ul:not(.social-media-wrapper) {
 }
 
 footer .wrapper .content ul li a, footer .wrapper .content p {
-    color: var(--text-muted);
+    color: var(--text-secondary);
     text-decoration: none;
     font-size: 12px;
     font-weight: 500;
