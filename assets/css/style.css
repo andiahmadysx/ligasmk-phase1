@@ -269,7 +269,7 @@ nav ul li.active a, nav ul li a:hover {
 .learning .card .content h4 {
     color: var(--text-primary);
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .learning .card .content h3 {
@@ -416,7 +416,7 @@ nav ul li.active a, nav ul li a:hover {
 
 .category .explore {
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--text-primary);
     display: flex;
     justify-content: center;
@@ -557,12 +557,12 @@ nav ul li.active a, nav ul li a:hover {
 .event .event-wrapper .card .info .date h5 {
     color: var(--text-primary);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .event .event-wrapper .card h4 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* footer */
