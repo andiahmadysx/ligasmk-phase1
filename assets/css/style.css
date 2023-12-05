@@ -9,7 +9,7 @@ html, body, * {
     --text-primary: #532EE8;
     --text-black: #000000;
     --text-secondary: #9F9F9F;
-    --text-muted: #777777;
+    --text-muted: #313131;
     --text-white: #FFFFFF;
     --bg-primary: #3A10E5;
     --bg-secondary: #F0F3FF;
@@ -23,7 +23,7 @@ html, body, * {
 /* navbar */
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     padding: 1rem 0;
     align-items: center;
@@ -48,6 +48,7 @@ nav ul li a {
     color: var(--text-muted);
     text-decoration: none;
     font-weight: 500;
+    font-size: 16px;
 
 }
 
