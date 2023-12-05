@@ -647,7 +647,7 @@ footer .wrapper .footer ul {
 }
 
 footer .wrapper .footer ul li a, footer .wrapper .footer p {
-    color: var(--text-muted);
+    color: var(--text-secondary);
     text-decoration: none;
     font-size: 12px;
     font-weight: 500;
